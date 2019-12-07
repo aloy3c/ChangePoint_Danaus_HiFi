@@ -39,7 +39,7 @@ if (startWithBams) {
 
 # Specify parameters for analysis
 assembly <- "FALCON_HiFi_Q30"
-window.size <- 1000		# How many basepairs in each window for counting reads
+window.size <- 500		# How many basepairs in each window for counting reads
 minScaffReads <- 50    # Each sample must have at least this many reads for each sample to be analyzed.
 minReads <- 6            # Minimum reads required in window for inclusion in CP
 minSegment <- 5000        # Minimum segment size for detecting changepoints; valid windows must provide twice this for changepoint analysis
