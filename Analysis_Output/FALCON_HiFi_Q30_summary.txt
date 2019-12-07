@@ -2,19 +2,19 @@ Assembly version: FALCON_HiFi_Q30
 
 RUN PARAMETERS
 50	Minimum reads required across scaffold (in each sample)
-1000	Window size for counting reads
+500	Window size for counting reads
 6	Minimum reads required per window for inclusion in Changepoint analysis
 5000	Minimum segment size required for detecting changepoints
 
 
 RESULTS OVERVIEW
 211	Total scaffolds in assembly
-204	Scaffolds analyzed via Changepoint
+192	Scaffolds analyzed via Changepoint
 0	Scaffolds with samples having below threshold read counts
 
 
 CHROMOSOMAL ASSIGNMENT
-28	Autosomal scaffolds
-8	Z-linked scaffolds
-22	W-linked scaffolds
-153	Chimeric scaffolds
+31	Autosomal scaffolds
+11	Z-linked scaffolds
+27	W-linked scaffolds
+142	Chimeric scaffolds
